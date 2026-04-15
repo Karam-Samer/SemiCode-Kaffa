@@ -12,6 +12,10 @@ html:has(#checkDefaultMobile:checked) {
         color: var(--text-dark) !important;
     }
 
+    header nav .nav-link::before, header nav .nav-link::after, header nav .nav-link span.shape{
+    background-color: var(--hover-dark) !important;
+    }
+
     header .carousel-inner .carousel-item.active .carousel-caption .buttons a {
         color: var(--text-dark) !important;
         border-color: var(--text-dark) !important;
@@ -19,7 +23,7 @@ html:has(#checkDefaultMobile:checked) {
 
     header .carousel-inner .carousel-item.active .carousel-caption .buttons a::before,
     header .carousel-inner .carousel-item.active .carousel-caption .buttons a::after {
-        border-color: var(--text-dark) !important;
+        border-color: var(--hover-dark) !important;
     }
 
     #About,
