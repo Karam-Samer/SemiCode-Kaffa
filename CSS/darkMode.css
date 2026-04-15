@@ -26,6 +26,14 @@ html:has(#checkDefaultMobile:checked) {
         border-color: var(--hover-dark) !important;
     }
 
+    header .carousel-inner .carousel-item .carousel-caption .buttons a::before {
+    border-right-color: transparent !important;
+    }
+    
+    header .carousel-inner .carousel-item .carousel-caption .buttons a::after {
+    border-left-color: transparent !important;
+    }
+
     #About,
     #Menu {
         background-color: var(--bg-dark) !important;
