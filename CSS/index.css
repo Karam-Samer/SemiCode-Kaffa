@@ -15,9 +15,6 @@ input#checkDefault {
 
 header nav .mode label {
     cursor: pointer;
-    width: 37.5px;
-    height: 40px;
-    transform: translate(-25%, 33.33333%);
 }
 
 header nav .mode label i {
