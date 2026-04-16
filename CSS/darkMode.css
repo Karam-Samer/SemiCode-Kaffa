@@ -27,7 +27,7 @@ html:has(#checkDefaultMobile:checked) {
     }
     
     header .carousel-inner .carousel-item .carousel-caption .buttons a::after {
-    border-left-color: transparent !important;
+    border-left-color: transparent;
     }
 
     header #carouselExampleCaptions .carousel-indicators button.active { background-color: var(--bg-dark) !important; }
