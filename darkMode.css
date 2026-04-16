@@ -1,0 +1,103 @@
+:root {
+    --bg-dark: rgba(24, 26, 55, 0.9);
+    --text-dark: rgb(173, 189, 255);
+    --hover-dark: rgba(120, 150, 255, 0.8);
+    --text2-dark: rgb(255, 180, 150);
+}
+
+html:has(#checkDefault:checked),
+html:has(#checkDefaultMobile:checked) {
+
+    header h2 {
+        color: var(--text-dark) !important;
+    }
+
+    header .carousel-inner .carousel-item.active .carousel-caption .buttons a {
+        color: var(--text-dark) !important;
+        border-color: var(--text-dark) !important;
+    }
+
+    header .carousel-inner .carousel-item.active .carousel-caption .buttons a::before,
+    header .carousel-inner .carousel-item.active .carousel-caption .buttons a::after {
+        border-color: var(--text-dark) !important;
+    }
+
+    #About,
+    #Menu {
+        background-color: var(--bg-dark) !important;
+    }
+
+    #About p,
+    #About h2,
+    #About h3,
+    #About a,
+    #About span {
+        color: var(--text-dark) !important;
+    }
+
+    #About button {
+        border-color: var(--text-dark) !important;
+    }
+
+    #About a:hover {
+        background-color: var(--hover-dark) !important;
+    }
+
+    #About .row .part1 .item button span {
+        color: var(--text-dark) !important;
+    }
+
+    #About .row .part1 .item button::before,
+    #About .row .part1 .item button::after {
+        background-color: var(--text-dark) !important;
+    }
+
+    #Services h2,
+    #Services h3,
+    #Services p {
+        color: var(--text2-dark) !important;
+    }
+
+    #Services i {
+        color: var(--text-dark) !important;
+    }
+
+    #Menu h2,
+    #Menu h6,
+    #Menu p,
+    #Menu button {
+        color: var(--text-dark) !important;
+    }
+
+    #Menu h6,
+    #Menu p,
+    #Menu .nav-tabs .nav-link.active,
+    #Menu .nav-tabs .nav-link:hover {
+        background-color: var(--hover-dark) !important;
+        border-color: var(--hover-dark) !important;
+    }
+
+    #Beans .container h2,
+    #Beans .container i {
+        color: var(--text-dark) !important;
+    }
+
+    #Beans .container h3 {
+        color: var(--text2-dark) !important;
+    }
+
+    #Book h2,
+    #Book h3,
+    #Book button {
+        color: var(--text2-dark) !important;
+    }
+
+    #Book form {
+        background-color: var(--bg-dark) !important;
+    }
+
+    footer p {
+        color: var(--text-dark) !important;
+    }
+
+}

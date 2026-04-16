@@ -1,0 +1,774 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KAFFA</title>
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="CSS/all.min.css" />
+  <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+  <link rel="stylesheet" href="CSS/fonts.css" />
+  <link rel="stylesheet" href="CSS/global.css" />
+  <link rel="stylesheet" href="CSS/keyframes.css" />
+  <link rel="stylesheet" href="CSS/index.css" />
+  <link rel="stylesheet" href="CSS/index.responsive.css" />
+  <link rel="stylesheet" href="CSS/darkMode.css" />
+  <script src="JS/bootstrap.min.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg position-absolute w-100">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" class="img-fluid" alt="" />
+        </a>
+        <div class="d-flex align-items-center">
+          <button class="navbar-toggler opener border-2 border-success p-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+            <i class="fa-solid fa-bars text-success"></i>
+          </button>
+
+          <div class="d-lg-none mode d-flex align-items-center">
+            <div class="form-check d-flex align-items-center m-0">
+              <input class="form-check-input" type="checkbox" id="checkDefaultMobile">
+              <label class="form-check-label d-flex align-items-center m-0" for="checkDefaultMobile">
+                <i class="fa-solid fa-sun" style="color: yellow;"></i>
+                <i class="fa-solid fa-moon" style="color: #b8b6ad;"></i>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 py-2 py-lg-0">
+            <li class="nav-item me-0 me-lg-3">
+              <a class="nav-link active fs-5 text-light" aria-current="page" href="#">
+                <span class="text fw-light fs-4">Home</span>
+                <span class="shape"></span>
+              </a>
+            </li>
+            <li class="nav-item me-0 me-lg-3">
+              <a class="nav-link fs-5 text-light" href="#About">
+                <span class="text fw-light fs-4">About</span>
+                <span class="shape"></span>
+              </a>
+            </li>
+            <li class="nav-item me-0 me-lg-3">
+              <a class="nav-link fs-5 text-light" href="#Services">
+                <span class="text fw-light fs-4">Services</span>
+                <span class="shape"></span>
+              </a>
+            </li>
+            <li class="nav-item me-0 me-lg-3">
+              <a class="nav-link fs-5 text-light" href="#Menu">
+                <span class="text fw-light fs-4">Menu</span>
+                <span class="shape"></span>
+              </a>
+            </li>
+            <li class="nav-item me-0 me-lg-3">
+              <a class="nav-link fs-5 text-light" href="#Beans">
+                <span class="text fw-light fs-4">Bean Coffee</span>
+                <span class="shape"></span>
+              </a>
+            </li>
+            <li class="nav-item me-0 me-lg-3">
+              <a class="nav-link fs-5 text-light" href="#Book">
+                <span class="text fw-light fs-4">Book</span>
+                <span class="shape"></span>
+              </a>
+            </li>
+            <li class="nav-item me-0 me-lg-3 mode d-none d-lg-block h-100 m-auto">
+              <div class="form-check d-flex align-items-center justify-content-center">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                  <i class="fa-solid fa-sun" style="color: yellow;"></i>
+                  <i class="fa-solid fa-moon" style="color: #b8b6ad;"></i>
+                </label>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" class="active rounded-circle bg-success"
+          data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" class="rounded-circle bg-success"
+          data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" class="rounded-circle bg-success"
+          data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" class="rounded-circle bg-success"
+          data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item vh-100 active">
+          <div class="container h-100 d-flex justify-content-start align-items-center">
+            <div class="carousel-caption text-start d-md-block">
+              <h2 class="display-1 text-success fw-medium">
+                Elite Coffee Brands
+              </h2>
+              <p class="fw-light my-4">
+                Coffee Shop is the place where you can get flavorful coffee
+                strains from global elite brands and roasters at very
+                affordable price. Lorem ipsum dolor sit amet elit. Non,
+                explicabo et sit amet.
+              </p>
+              <div class="buttons">
+                <a href="#Book" class="btn fs-5 me-2 text-success border-1 border-success">
+                  <span class="text">Book a table</span>
+                </a>
+                <a href="#About" class="btn fs-5 text-success border-1 border-success">
+                  <span class="text">About Us</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item vh-100">
+          <div class="container h-100 d-flex justify-content-start align-items-center">
+            <div class="carousel-caption text-start d-md-block">
+              <h2 class="display-1 text-success fw-medium">
+                Hot and tasty coffee
+              </h2>
+              <p class="fw-light my-4">
+                Coffee Shop is the place where you can get flavorful coffee
+                strains from global elite brands and roasters at very
+                affordable price. Lorem ipsum dolor sit amet elit. Non,
+                explicabo et sit amet.
+              </p>
+              <div class="buttons">
+                <a href="#Book" class="btn fs-5 me-2 text-success border-1 border-success"><span class="text">Book a
+                    table</span></a>
+                <a href="#About" class="btn fs-5 text-success border-1 border-success"><span class="text">About
+                    Us</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item vh-100">
+          <div class="container h-100 d-flex justify-content-start align-items-center">
+            <div class="carousel-caption text-start d-md-block">
+              <h2 class="display-1 text-success fw-medium">
+                Dedicated coffee fans
+              </h2>
+              <p class="fw-light my-4">
+                Coffee Shop is the place where you can get flavorful coffee
+                strains from global elite brands and roasters at very
+                affordable price. Lorem ipsum dolor sit amet elit. Non,
+                explicabo et sit amet.
+              </p>
+              <div class="buttons">
+                <a href="#Book" class="btn fs-5 me-2 text-success border-1 border-success"><span class="text">Book a
+                    table</span></a>
+                <a href="#About" class="btn fs-5 text-success border-1 border-success"><span class="text">About
+                    Us</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item vh-100">
+          <div class="container h-100 d-flex justify-content-start align-items-center">
+            <div class="carousel-caption text-start d-md-block">
+              <h2 class="display-1 text-success fw-medium">
+                Celebrate coffee brands
+              </h2>
+              <p class="fw-light my-4">
+                Coffee Shop is the place where you can get flavorful coffee
+                strains from global elite brands and roasters at very
+                affordable price. Lorem ipsum dolor sit amet elit. Non,
+                explicabo et sit amet.
+              </p>
+              <div class="buttons">
+                <a href="#Book" class="btn fs-5 me-2 text-success border-1 border-success"><span class="text">Book a
+                    table</span></a>
+                <a href="#About" class="btn fs-5 text-success border-1 border-success"><span class="text">About
+                    Us</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="About" class="py-5">
+    <div class="container text-light">
+      <div class="row">
+        <div class="col-lg-4 mb-4 mb-lg-0 part1">
+          <div class="item">
+            <span class="h6">BEST FOR YOU</span>
+            <h2>Who We Are</h2>
+            <p>
+              We make the delicious coffee for the coffee lovers. We are a
+              team of dedicated coffee fans who celebrate exceptional coffee
+              brands and roasters. Lorem ipsum feugiat.
+            </p>
+            <button class="btn border-light border-2 text-light">
+              <span class="text">Learn More</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-8 part2">
+          <div class="item">
+            <div class="row">
+              <div class="col-sm-6 col-md-4 mb-4 mb-lg-0  box">
+                <div class="item py-2">
+                  <div class="special-card rounded-2 overflow-hidden">
+                    <div class="front rounded-2 overflow-hidden"> </div>
+                    <div class="back rounded-2 overflow-hidden">
+                      <div class="head">
+                        <img class="img-fluid" src="images/about_back_01.jpg" alt="" />
+                      </div>
+                      <div class="body p-2 text-center">
+                        <h3>People</h3>
+                        <p class="fw-lighter">
+                          By creating an inclusive working environment, and
+                          investing in our local communities, we're supporting
+                          the people at the heart of our business.
+                        </p>
+                        <a href="#" class="px-3 py-2 rounded-5">Explore <i class="fa-solid fa-angles-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 box">
+                <div class="item py-2">
+                  <div class="special-card rounded-2 overflow-hidden">
+                    <div class="front rounded-2 overflow-hidden"> </div>
+                    <div class="back rounded-2 overflow-hidden">
+                      <div class="head">
+                        <img class="img-fluid" src="images/about_back_02.jpg" alt="" />
+                      </div>
+                      <div class="body p-2 text-center">
+                        <h3>Coffee</h3>
+                        <p class="fw-lighter">
+                          To continue making coffee the world loves, we're
+                          investing in a sustainable coffee supply and
+                          supporting the communities behind our coffee.
+                        </p>
+                        <a href="#" class="px-3 py-2 rounded-5">Explore <i class="fa-solid fa-angles-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4  box">
+                <div class="item py-2">
+                  <div class="special-card rounded-2 overflow-hidden">
+                    <div class="front rounded-2 overflow-hidden"> </div>
+                    <div class="back rounded-2 overflow-hidden">
+                      <div class="head">
+                        <img class="img-fluid" src="images/about_back_03.jpg" alt="" />
+                      </div>
+                      <div class="body p-2 text-center">
+                        <h3>Planet</h3>
+                        <p class="fw-lighter">
+                          To keep inspiring the world to love great coffee, we
+                          must respect the planet and ensure we reduce our
+                          environmental footprint, at every step.
+                        </p>
+                        <a href="#" class="px-3 py-2 rounded-5">Explore <i class="fa-solid fa-angles-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Services" class="py-5">
+    <div class="container text-light">
+      <div class="title mb-5 text-center">
+        <h2 class="h1">Services</h2>
+        <img src="images/header_img.png" alt="" class="img-fluid">
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="row ">
+                <div class="col-2">
+                  <div class="item">
+                    <i class="fa-solid fa-leaf text-success"></i>
+                  </div>
+                </div>
+
+                <div class="col-10">
+                  <div class="item">
+                    <h3>Pure Grades</h3>
+                    <p class="fw-lighter">Maecenas dapibus mattis eros, at fermentum sapien malesuada sit amet. Quisque
+                      in sollicitudin
+                      eros.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row my-5">
+                <div class="col-2">
+                  <div class="item">
+                    <i class="fa-solid fa-seedling text-success"></i>
+                  </div>
+                </div>
+
+                <div class="col-10">
+                  <div class="item">
+                    <h3>Wide Assortment</h3>
+                    <p class="fw-lighter">Cras ut nisl ac sapien interdum scelerisque sed in elit rutrum in massa sed
+                      congue eget turpis
+                      ligula.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-2">
+                  <div class="item">
+                    <i class="fa-solid fa-cloud-sun-rain text-success"></i>
+                  </div>
+                </div>
+
+                <div class="col-10">
+                  <div class="item">
+                    <h3>Proper Roasting</h3>
+                    <p class="fw-lighter">Proin non vulputate diam, ut varius orci. Lorem ipsum dolor sit amet,
+                      consectetur adipiscing
+                      elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 my-5 my-lg-0">
+            <div class="item">
+              <img src="images/services.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="row flex-lg-row-reverse">
+                <div class="col-2">
+                  <div class="item">
+                    <i class="fa-solid fa-certificate text-success"></i>
+                  </div>
+                </div>
+
+                <div class="col-10">
+                  <div class="item text-lg-end">
+                    <h3>High Quality</h3>
+                    <p class="fw-lighter">Maecenas dapibus mattis eros, at fermentum sapien malesuada sit amet. Quisque
+                      in sollicitudin
+                      eros.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row flex-lg-row-reverse my-5">
+                <div class="col-2">
+                  <div class="item">
+                    <i class="fa-solid fa-fan text-success"></i>
+                  </div>
+                </div>
+
+                <div class="col-10">
+                  <div class="item text-lg-end">
+                    <h3>Excellent Grinding</h3>
+                    <p class="fw-lighter">Maecenas dapibus mattis eros, at fermentum sapien malesuada sit amet. Quisque
+                      in sollicitudin
+                      eros.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row flex-lg-row-reverse">
+                <div class="col-2">
+                  <div class="item">
+                    <i class="fa-solid fa-mug-saucer text-success"></i>
+                  </div>
+                </div>
+
+                <div class="col-10">
+                  <div class="item text-lg-end">
+                    <h3>Awesome Aroma</h3>
+                    <p class="fw-lighter">Maecenas dapibus mattis eros, at fermentum sapien malesuada sit amet. Quisque
+                      in sollicitudin
+                      eros.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <section id="Menu" class="py-5">
+    <div class="container">
+      <div class="title mb-5 text-center">
+        <h2 class="h1 text-light">Menu</h2>
+        <img src="images/header_img.png" alt="" class="img-fluid">
+      </div>
+
+      <div class="content">
+        <div class="cover">
+          <ul class="nav m-auto mb-5 border border-light rounded-2 overflow-hidden nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item rounded-2 overflow-hidden me-3" role="presentation">
+              <button class="nav-link active" id="Coffee-tab" data-bs-toggle="tab" data-bs-target="#Coffee-tab-pane"
+                type="button" role="tab" aria-controls="Coffee-tab-pane" aria-selected="true">Coffee</button>
+            </li>
+            <li class="nav-item rounded-2 overflow-hidden me-3" role="presentation">
+              <button class="nav-link" id="Golden-Caramel-tab" data-bs-toggle="tab"
+                data-bs-target="#Golden-Caramel-tab-pane" type="button" role="tab"
+                aria-controls="Golden-Caramel-tab-pane" aria-selected="false">Golden Caramel
+                Range</button>
+            </li>
+            <li class="nav-item rounded-2 overflow-hidden me-3" role="presentation">
+              <button class="nav-link" id="Coffee-Over-Ice-tab" data-bs-toggle="tab"
+                data-bs-target="#Coffee-Over-Ice-tab-pane" type="button" role="tab"
+                aria-controls="Coffee-Over-Ice-tab-pane" aria-selected="false">Coffee Over Ice</button>
+            </li>
+            <li class="nav-item rounded-2 overflow-hidden me-3" role="presentation">
+              <button class="nav-link" id="Frostino-tab" data-bs-toggle="tab" data-bs-target="#Frostino-tab-pane"
+                type="button" role="tab" aria-controls="Frostino-tab-pane" aria-selected="false">Frostino</button>
+            </li>
+            <li class="nav-item rounded-2 overflow-hidden me-3" role="presentation">
+              <button class="nav-link" id="Fruit-Coolers-tab" data-bs-toggle="tab"
+                data-bs-target="#Fruit-Coolers-tab-pane" type="button" role="tab" aria-controls="Fruit-Coolers-tab-pane"
+                aria-selected="false">Fruit Coolers</button>
+            </li>
+            <li class="nav-item rounded-2 overflow-hidden" role="presentation">
+              <button class="nav-link" id="Hot-Chocolate-tab" data-bs-toggle="tab"
+                data-bs-target="#Hot-Chocolate-tab-pane" type="button" role="tab" aria-controls="Hot-Chocolate-tab-pane"
+                aria-selected="false">Hot Chocolate</button>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="Coffee-tab-pane" role="tabpanel" aria-labelledby="Coffee-tab"
+            tabindex="0">
+            <div class="row">
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/coffee/1.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">latte</h6>
+                  <p class="position-absolute text-light">6.2 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/coffee/2.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">cappuccino</h6>
+                  <p class="position-absolute text-light">8 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/coffee/3.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Flat White</h6>
+                  <p class="position-absolute text-light">7.8 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/coffee/4.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Flat Black</h6>
+                  <p class="position-absolute text-light">4.5 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-lg-0">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/coffee/5.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Mocha</h6>
+                  <p class="position-absolute text-light">6.4 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-lg-0">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/coffee/6.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Cortado</h6>
+                  <p class="position-absolute text-light">4.6 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-lg-0">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/coffee/7.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Caramel Cortado</h6>
+                  <p class="position-absolute text-light">4.8 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-lg-0">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/coffee/8.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Mocha Cortado</h6>
+                  <p class="position-absolute text-light">7.2 $</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="Golden-Caramel-tab-pane" role="tabpanel" aria-labelledby="Golden-Caramel-tab"
+            tabindex="0">
+            <div class="row">
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/goldenCaramelRange/1.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Golden Caramel Latte</h6>
+                  <p class="position-absolute text-light">6.2 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/goldenCaramelRange/2.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Golden Caramel Iced Latte</h6>
+                  <p class="position-absolute text-light">8 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/goldenCaramelRange/3.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Golden Caramel Cappuccino</h6>
+                  <p class="position-absolute text-light">7.8 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/goldenCaramelRange/4.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Golden Caramel Iced Cappuccino</h6>
+                  <p class="position-absolute text-light">4.5 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-lg-0">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/goldenCaramelRange/5.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Golden Caramel Frostino with Light Dairy Swirl</h6>
+                  <p class="position-absolute text-light">6.4 $</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="Coffee-Over-Ice-tab-pane" role="tabpanel" aria-labelledby="Coffee-Over-Ice-tab"
+            tabindex="0">
+            <div class="row">
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/coffeeOverIce/1.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Iced Latte</h6>
+                  <p class="position-absolute text-light">6.2 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/coffeeOverIce/2.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Iced Cappuccino with whipped milk</h6>
+                  <p class="position-absolute text-light">8 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/coffeeOverIce/3.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Cold Brew Coffee Black</h6>
+                  <p class="position-absolute text-light">7.8 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/coffeeOverIce/4.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Cold Brew Coffee with whipped milk</h6>
+                  <p class="position-absolute text-light">4.5 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-lg-0">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/coffeeOverIce/5.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Iced Americano Black</h6>
+                  <p class="position-absolute text-light">6.4 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-lg-0">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/coffeeOverIce/6.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Iced Mocha</h6>
+                  <p class="position-absolute text-light">6.4 $</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="Frostino-tab-pane" role="tabpanel" aria-labelledby="Frostino-tab" tabindex="0">
+            <div class="row">
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/fruitCoolers/1.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Salted Caramel & Cream Frostino</h6>
+                  <p class="position-absolute text-light">6.2 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/frostino/2.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Ruby Chocolate Frostino & Light Dairy Swirl</h6>
+                  <p class="position-absolute text-light">8 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/frostino/3.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Belgian Chocolate & Cream Frostino</h6>
+                  <p class="position-absolute text-light">7.8 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/frostino/4.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Mint Choc Chip Frostino & Cream</h6>
+                  <p class="position-absolute text-light">4.5 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-lg-0">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/frostino/5.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Strawberry & Cream Frostino</h6>
+                  <p class="position-absolute text-light">6.4 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4 mb-lg-0">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/frostino/6.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Coffee Chocolate</h6>
+                  <p class="position-absolute text-light">6.4 $</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="Fruit-Coolers-tab-pane" role="tabpanel" aria-labelledby="Fruit-Coolers-tab"
+            tabindex="0">
+            <div class="row">
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/fruitCoolers/1.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Salted Caramel & Cream Frostino</h6>
+                  <p class="position-absolute text-light">6.2 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/fruitCoolers/2.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Ruby Chocolate Frostino & Light Dairy Swirl</h6>
+                  <p class="position-absolute text-light">8 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/fruitCoolers/3.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Belgian Chocolate & Cream Frostino</h6>
+                  <p class="position-absolute text-light">7.8 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/fruitCoolers/4.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Mint Choc Chip Frostino & Cream</h6>
+                  <p class="position-absolute text-light">4.5 $</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="Hot-Chocolate-tab-pane" role="tabpanel" aria-labelledby="Hot-Chocolate-tab"
+            tabindex="0">
+            <div class="row">
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/hotChocolate/1.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Hot Chocolate</h6>
+                  <p class="position-absolute text-light">6.2 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/hotChocolate/2.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">White Hot Chocolate</h6>
+                  <p class="position-absolute text-light">8 $</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
+                <div class="item rounded-3 overflow-hidden position-relative">
+                  <img src="images//menu/hotChocolate/3.jpg" alt="" class="w-100">
+                  <h6 class="position-absolute text-light">Ruby Hot Chocolate With Light Dairy Swirl</h6>
+                  <p class="position-absolute text-light">7.8 $</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Beans" class="py-5">
+    <div class="container text-center position-relative">
+      <h2 class="text-success">How we Prepare our Beans</h2>
+      <h3 class="text-light my-4">Watch Video</h3>
+      <i class="fa-regular fa-circle-play" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <video src="videos/video.mp4" class="img-fluid m-auto rounded-3" controls></video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Book" class="pt-4 pt-lg-5">
+    <div class="container py-4 py-lg-5">
+      <div class="title mb-5 text-center">
+        <h2 class="h1 text-light">Book Now</h2>
+        <img src="images/header_img.png" alt="" class="img-fluid">
+      </div>
+      <form action="" class="px-0 px-lg-4 py-4">
+        <h3 class="text-center mb-4 text-light">Booking a table</h3>
+        <div class="row">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control fw-lighter" required autocomplete="off" placeholder="Name *">
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control fw-lighter" required autocomplete="off" placeholder="Phone *">
+          </div>
+          <div class="input-group mb-3">
+            <input type="number" class="form-control fw-lighter" required autocomplete="off"
+              placeholder="How Many People *">
+          </div>
+          <div class="input-group mb-3">
+            <input type="datetime-local" class="form-control fw-lighter" required autocomplete="off"
+              placeholder="Date *">
+          </div>
+          <div class="input-group mb-3">
+            <textarea class="form-control fw-lighter" required autocomplete="off" name="message" cols="30" rows="10"
+              placeholder="Message *"></textarea>
+          </div>
+        </div>
+        <button class="btn btn-dark d-block">
+          <span>Book Now</span>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="pb-2 text-center text-light">
+    <p class="m-0">© 2021 <span id="footer-span">SemiCode</span>, Ltd. | All Rights Reserved .</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+@media (max-width: 1300px) {
+    header nav.navbar .navbar-brand {
+        width: 20%;
+    }
+
+    header nav .navbar-toggler i {
+        transition-duration: 0.5s;
+    }
+
+    header nav .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    header nav .navbar-toggler[aria-expanded=true] {
+        background-color: #fff;
+        border: none;
+    }
+
+    header nav .navbar-toggler i {
+        font-size: 26px;
+    }
+
+    header nav .navbar-collapse {
+        background-color: #000;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    header nav .navbar-collapse .navbar-nav li a {
+        width: 90%;
+        margin: auto;
+    }
+
+    header .carousel-inner .carousel-item .carousel-caption h2 {
+        font-size: clamp(30px, 6vw, 75px);
+    }
+
+    header .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    #Menu .cover {
+        overflow: auto;
+    }
+
+    #Menu .nav-tabs {
+        width: max-content;
+    }
+
+    #Menu .item {
+        width: 90%;
+        margin: auto;
+    }
+
+    #Beans i {
+        font-size: 60px;
+    }
+
+    #Beans .modal-content {
+        width: 90%;
+    }
+
+    #Book .container {
+        background-image: none;
+    }
+
+    #Book form {
+        width: 90%;
+        margin: auto;
+    }
+
+    #Book form .input-group,
+    #Book form button {
+
+        width: 90%;
+    }
+}
+
+
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    #Services .container .content img {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    #Menu .item {
+        width: 70%;
+    }
+
+    #Beans i {
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    header nav.navbar .navbar-brand {
+        width: 15%;
+    }
+
+    #Menu .item {
+        width: 100%;
+    }
+
+    #Beans i {
+        font-size: 90px;
+    }
+
+    #Beans .modal-content {
+        width: 70%;
+    }
+
+    #Book .container {
+        background-image: url("../images/girl.png");
+        background-size: 50%;
+    }
+
+    #Book form {
+        width: 50%;
+        margin: initial;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    header nav.navbar .navbar-brand {
+        width: 12%;
+    }
+
+    #About .row .part2 .box .special-card {
+        width: fit-content;
+    }
+
+    #Services .container .content img {
+        width: 50%;
+    }
+
+    #Beans i {
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    header nav.navbar .navbar-brand {
+        width: 8%;
+    }
+
+    header nav .navbar-collapse {
+        background-color: transparent;
+    }
+
+    header nav.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+        margin-left: 20px;
+        width: initial;
+    }
+
+    #Services .container .content img {
+        width: 100%;
+    }
+
+    #Beans .modal-content {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1181px) and (max-width:1300px) {
+    header nav.navbar .navbar-brand {
+        width: 7%;
+    }
+}
