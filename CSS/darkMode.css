@@ -121,7 +121,7 @@ html:has(#checkDefaultMobile:checked) {
     }
 
     #Book form button:after{
-        background-color: var(--hover-dark) !important;
+        background-color: var(--bg-dark) !important;
     }
 
     footer p {
