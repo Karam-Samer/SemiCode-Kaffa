@@ -110,6 +110,14 @@ html:has(#checkDefaultMobile:checked) {
         background-color: var(--bg-dark) !important;
     }
 
+    #Book form button {
+    border: 1px solid var(--hover-dark) !important;
+    }
+
+    #Book form button:after{
+        background-color: var(--hover-dark) !important;
+    }
+
     footer p {
         color: var(--text-dark) !important;
     }
