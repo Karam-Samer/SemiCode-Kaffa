@@ -24,9 +24,12 @@ html:has(#checkDefaultMobile:checked) {
         border-color: var(--text-dark) !important;
     }
 
-    header .carousel-inner .carousel-item.active .carousel-caption .buttons a::before,
-    header .carousel-inner .carousel-item.active .carousel-caption .buttons a::after {
+    header .carousel-inner .carousel-item .carousel-caption .buttons a::before, header .carousel-inner .carousel-item .carousel-caption .buttons a::after {
         border-color: var(--hover-dark);
+    }
+
+    header .carousel-inner .carousel-item .carousel-caption .buttons a::before {
+    border-right-color: transparent;
     }
     
     header .carousel-inner .carousel-item .carousel-caption .buttons a::after {
