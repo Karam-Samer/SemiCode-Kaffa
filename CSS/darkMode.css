@@ -30,7 +30,7 @@ html:has(#checkDefaultMobile:checked) {
     border-left-color: transparent !important;
     }
 
-    header #carouselExampleCaptions .carousel-indicators button.active { background-color: var(--bg-dark); }
+    header #carouselExampleCaptions .carousel-indicators button.active { background-color: var(--bg-dark) !important; }
 
     #About,
     #Menu {
