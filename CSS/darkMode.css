@@ -61,8 +61,12 @@ html:has(#checkDefaultMobile:checked) {
     }
 
     #About .row .part1 .item button span {
-        color: var(--text-dark) !important;
+        color: var(--text-dark);
     }
+
+    #About .row .part1 .item button:hover span {
+    color: #fff;
+}
 
     #About .row .part1 .item button::before,
     #About .row .part1 .item button::after {
