@@ -12,6 +12,9 @@ html:has(#checkDefaultMobile:checked) {
         color: var(--text-dark) !important;
     }
 
+    header nav .container button.opener{border-color: var(--text-dark) !important;}
+    header nav .navbar-toggler i {color: var(--text-dark) !important;}
+
     header nav .nav-link::before, header nav .nav-link::after, header nav .nav-link span.shape{
     background-color: var(--hover-dark) !important;
     }
